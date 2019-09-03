@@ -11,6 +11,10 @@ end
 # Part II
 def max_2_sum arr
   # YOUR CODE HERE
+  return 0 if arr.empty?
+  return arr.first if arr.length == 1
+
+  arr.sort{ |x, y| y <=> x }.take(2).reduce(:+)
 end
 
 # Part III
