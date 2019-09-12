@@ -3,6 +3,12 @@
 # Part I
 def hello(name)
   # YOUR CODE HERE
+  if name.eql?(String)
+    puts 'Hello, ' + name
+    #return String
+  else
+    return 'Hello, ' + name
+  end
 end
 
 # Part II
