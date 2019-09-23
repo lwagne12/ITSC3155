@@ -1,14 +1,25 @@
 class Dessert
   # add code for setters and getters
+   attr_accessor :name, :calories
+   
   def initialize(name, calories)
     # your code here
-    attr_accessor :name, :calories
+    @name = name
+    @calories = calories
   end
   def healthy?
     # your code here
+    if self.calories < 200
+      return true
+    end
+    return false
   end
   def delicious?
-    # your code here
+    your code here
+    if self.calories > 200
+     return true
+    end
+    return false
   end
 end
 
