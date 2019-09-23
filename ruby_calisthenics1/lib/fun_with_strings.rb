@@ -15,8 +15,9 @@ module FunWithStrings
     end
       sentence
   end
-  def self.anagram_groups
+  def anagram_groups
     # your code here
+    self.downcase
   end
 end
 # make all the above functions available as instance methods on Strings:
