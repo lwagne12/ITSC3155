@@ -15,8 +15,7 @@ class Dessert
     return false
   end
   def delicious?
-    your code here
-    if self.calories > 200
+    if self.calories > 200 || Dessert
      return true
     end
     return false
