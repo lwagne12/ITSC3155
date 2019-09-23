@@ -15,7 +15,7 @@ class Dessert
     return false
   end
   def delicious?
-    if self.calories > 200 || Dessert
+    if (self.calories > 200 || Dessert) && !(self.name.include? 'licorice')
      return true
     end
     return false
