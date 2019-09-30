@@ -20,4 +20,5 @@ end
 # Part III
 def sum_to_n? arr, n
   # YOUR CODE HERE
+  arr.combination(2).any?{|pair| pair.sum == n }
 end
